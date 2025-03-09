@@ -22,6 +22,16 @@ input:-moz-placeholder {
   text-align:right; 
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.button-color {
+  background-color: #00039b;
+  color: #fff;
+}
+
 a {
   font-weight: 500;
   color: #000000;
@@ -40,6 +50,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 
 h1 {
@@ -54,7 +65,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #00039b;
+  color: #fff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
